@@ -19,6 +19,8 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatDialogModule} from "@angular/material/dialog";
 import {HttpClientModule} from "@angular/common/http";
 import {AuthService} from "./service/auth.service";
+import { LoginComponent } from './sign/login/login.component';
+import { UserAccountComponent } from './sign/user-account/user-account.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import {AuthService} from "./service/auth.service";
     FooterComponent,
     HomeComponent,
     RegisterComponent,
+    LoginComponent,
+    UserAccountComponent,
 
   ],
   imports: [
